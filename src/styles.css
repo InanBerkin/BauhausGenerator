@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --color-0: #fff;
+  --color-1: #ff4852;
+  --color-2: #ffa300;
+  --color-3: #132d4e;
+  --color-4: #4058bc;
+}
+
+.frame {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.ellipse-0 {
+  height: 100%;
+  border-radius: 100%;
+}
+
+.ellipse-1 {
+  height: 100%;
+  border-radius: 0 0 100% 0;
+}
+
+.rotate-0 {
+  transform: rotate(0);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-270 {
+  transform: rotate(270deg);
+}
+
+.c-0 {
+  background-color: var(--color-0);
+}
+
+.c-1 {
+  background-color: var(--color-1);
+}
+
+.c-2 {
+  background-color: var(--color-2);
+}
+
+.c-3 {
+  background-color: var(--color-3);
+}
+
+.c-4 {
+  background-color: var(--color-4);
+}
